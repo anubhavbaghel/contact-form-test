@@ -1,0 +1,21 @@
+{
+    "name": "contact-forms-comparison",
+    "version": "1.0.0",
+    "description": "Contact form with reCAPTCHA and Turnstile comparison",
+    "main": "index.html",
+    "scripts": {
+        "dev": "npx serve .",
+        "start": "npx serve ."
+    },
+    "keywords": [
+        "contact-form",
+        "recaptcha",
+        "turnstile",
+        "comparison"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "nodemailer": "^6.9.8"
+    }
+}
