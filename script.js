@@ -65,7 +65,7 @@ function showResponseMessage(messageElement, message, type) {
 window.onRecaptchaLoad = function () {
     if (typeof grecaptcha !== 'undefined') {
         recaptchaWidgetId = grecaptcha.render('recaptcha-widget', {
-            'sitekey': 'YOUR_RECAPTCHA_SITE_KEY_HERE',
+            'sitekey': '6Lc-l0wsAAAAABr-XD33W_QLlPbSv9FwPe-6Bq8j',
             'theme': 'dark'
         });
     }
@@ -75,7 +75,7 @@ window.onRecaptchaLoad = function () {
 window.onTurnstileLoad = function () {
     if (typeof turnstile !== 'undefined') {
         turnstileWidgetId = turnstile.render('#turnstile-widget', {
-            sitekey: 'YOUR_TURNSTILE_SITE_KEY_HERE',
+            sitekey: '0x4AAAAAACM3LRZmCFQFu1rW',
             theme: 'dark'
         });
     }
